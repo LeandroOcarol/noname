@@ -1,0 +1,84 @@
+/*Style for Contacts*/
+*{
+	background: #14213D;
+}
+.logo{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+nav {
+	display: flex;
+	align-items: center;
+	width: 95%;
+	padding: 20px 25px;
+	justify-content: space-between;
+}
+nav ul li {
+	margin: 10px 20px;
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #FCA311;
+	font-weight: bold;
+	font-size: 30px;
+}
+nav ul li a:hover,
+nav ul li a.contacts{
+	color: #BEBDB8;
+}
+.infos h1{
+	color: #FCA311;
+	font-size: 55px;
+	padding: 0 15px;
+	margin-bottom: 30px;
+}
+.infos h2{
+	color: #FCA311;
+	font-size: 30px;
+	padding: 10px 30px;
+}
+.p2{
+	color: #FFFFFF;
+	padding: 0 0;
+	line-height: 43px;
+	font-size: 38px;
+	text-orientation: left;
+}
+.facebook {
+	width: 180px;
+	height: 180px;
+	padding: 0 15%;
+	border-radius: 50%;
+	margin-bottom: 4%;
+}
+.fb{
+	color: #FFFFFF;
+	padding: 0 15%;
+	line-height: 53px;
+	font-size: 38px;
+	text-decoration: none;
+}
+.phone {
+	width: 180px;
+	height: 180px;
+	padding: 0 3%;
+	border-radius: 80%;
+	margin-bottom: 4%;
+}
+.insta {
+	width: 160px;
+	height: 160px;
+	padding: 0 15%;
+	border-radius: 50%;
+	margin-bottom: 4%;
+}
+.ig {
+	color: #FFFFFF;
+	padding: 0 19%;
+	line-height: 53px;
+	font-size: 38px;
+	text-decoration: none;
+}
