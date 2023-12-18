@@ -1,0 +1,55 @@
+/*Style for Home*/
+*{
+	background: #14213D;
+}
+img{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+nav {
+	display: flex;
+	align-items: center;
+	width: 95%;
+	padding: 20px 25px;
+	justify-content: space-between;
+}
+nav ul li {
+	margin: 10px 20px;
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #FCA311;
+	font-weight: bold;
+	font-size: 30px;
+}
+nav ul li a:hover,
+nav ul li a.home {
+	color: #BEBDB8;
+}
+.info {
+	margin-left: 5%;
+	margin-top: 7%;
+}
+.info h1{
+	font-size: 50px;
+	color: #FFFFFF;
+	margin-bottom: 0;
+}
+span{
+	color: #FCA311;
+}
+.info p{
+	font-size: 38px;
+	color: #FFFFFF;
+}
+.image{
+	width: 40%;
+	height: 68%;
+	position: absolute;
+	top: 22%;
+	bottom: 0;
+	right: 50px;
+}
